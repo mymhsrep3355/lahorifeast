@@ -9,11 +9,11 @@ import ComingSoonPage from "./pages/ComingSoonPage";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/landing",
+      path: "/",
       element: <LandingPage />,
     },
     {
-      path: "/",
+      path: "/coming-soon",
       element:<ComingSoonPage />,
     }
   ]);
