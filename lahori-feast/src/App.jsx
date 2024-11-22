@@ -15,7 +15,7 @@ function App() {
     {
       path: "/coming-soon",
       element:<ComingSoonPage />,
-    }
+    },
   ]);
   return (
     <Flex justify="center" w="full">
